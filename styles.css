@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+header{
+    width: 100%;
+}
+.oculta {
+    display: none!important;
+}
+.tituloPrincipal {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input#buscador {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+#contenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 8px;
+    background-color: rgb(250, 238, 222);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.imagenProducto {
+    width: 200px;
+}
+#carrito {
+    height: 235px;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100% ;
+}
+.tarjetaEnCarrito {
+    margin: 10px;
+    border: 1px solid black;
+    height: 210px;
+    width: 210px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    border-radius: 20px;
+    background-color: rgb(250, 238, 222);
+}
+footer{
+    align-self: flex-end;
+    width: 100%;
+    background-color: black;
+}
+.pieDePagina {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
